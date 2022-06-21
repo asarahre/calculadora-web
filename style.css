@@ -1,0 +1,63 @@
+:root{
+    --cor-primaria: rgb(44, 32, 111); 
+    --cor-tercearia: #050505;
+    --cor-borda: #31322D;
+    --cor-primaria: #3A3B38;
+    --cor-placa: #7C6231;
+    --cor-secundaria: #8C8C8C;
+    --cor-off: #9F4760;
+    --cor-placa-b: #A18757;
+    --cor-visor: #C0CDC4;
+    --cor-tint: #FFFFFF;
+
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+   width: 100vw;  /* largura  */
+   height: 100vh;/* altura */
+   background-color: red;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.caculadora {
+    background-color: var(--cor-primaria);
+    height: calc(280px*2) ;
+    width: calc(200px*2) ;
+}
+.visores {
+
+}
+
+.header {
+
+   background-color: var(--cor-secundaria); 
+}
+.teclado {
+    
+}
+
+.marca {
+
+}
+.placa-solar{
+
+}
+.visor{
+
+}
+.operadores-especiais{
+
+}
+.numeros{
+
+}
