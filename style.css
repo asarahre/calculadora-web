@@ -52,7 +52,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 16px;
+    padding: 40px 16px 0 16px;
 }
 
 .teclado {
@@ -104,6 +104,16 @@
     border: none;
 }
 
+.placa-solar-descricao {
+    padding-top: 8px;
+    padding-bottom: 4px;
+    width: 100%;
+    text-align: right;
+}
+.placa-solar-descricao span {
+    font-size: 32px;
+}
+
 .visor-container {
     padding: 12px ;
     border: 5px solid var(--cor-borda);
@@ -124,5 +134,17 @@
 }
 
 .numeros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 24px;
+    margin: 32px;
+}
 
+.btn {
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 12px 0;
+    font-size: 32px;
+    border-radius: 8px;
 }
